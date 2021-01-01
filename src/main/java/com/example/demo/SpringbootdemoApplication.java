@@ -19,6 +19,5 @@ public class SpringbootdemoApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         employeeRepository.save(new Employee(null,"ghassen"));
-
     }
 }
